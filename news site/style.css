@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(210, 252, 252, 0.274);
+}
+   
+    /* NAV MENU STARTS HERE */
+
+ul{
+    list-style: none;
+    padding: 20px;
+}
+.nav-bar{
+    position: relative;
+}
+.list-things{
+    padding-left: 202px;
+    background-color: darkblue;
+}
+.list-lists{
+    padding-left: 200px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Lucida Sans'; 
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+li, a {
+    display: inline;
+    padding: 18.7px;
+}
+.list-lists li:hover{
+    background-color: #fff;
+    border-radius: 10px;
+}
+a:hover{
+    color: navy;
+}
+.image{
+    position: absolute;
+    padding-left: 247px;
+    
+}
+
+    /* NAV MENU ENDS HERE */
+
+    /* 2ND MENU STARTS HERE */
+
+    .quotes-help{
+        padding-left: 250px;
+    }
+.quotes-help-text{
+    padding: 30px;
+    padding-left: 15px;
+    font-size: 1.22rem;
+    background-color: rgb(223, 247, 239);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* [contenteditable]{
+    outline: 0px solid transparent;
+} */
+.quotes-help-text span:hover{
+    background-color: navy;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+span:hover{
+    color: #fff;
+    /* font-size: 1.4rem; */
+}
+
+#motivational{
+    padding: 20px;
+}
+#comedy{
+    padding: 20px;
+}
+#love{
+    padding: 20px;
+}
+#patriotic{
+    padding: 20px;
+}
+#respect{
+    padding: 20px;
+}
+#life{
+    padding: 20px;
+}
+
+    /* 2ND MENU ENDS HERE */
+
+
+    /* SIDE BAR STARTS HERE */
+
+.side-bar{
+    position: fixed;
+    width: 18%;
+    background-color: azure;
+    height: 622px;
+    z-index: 1;
+    border: 2px solid black;
+}
+.news-head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-size: 1.2rem; 
+    margin: 15px;
+    padding: 10px;
+    padding-left: 48px;
+   
+    background-color: darkblue;
+    /* border: 3px solid white; */
+    border-radius: 10px;
+    color: white;
+    
+}
+.side-bar-text{
+    /* padding-left: 15px; */
+    padding: 10px;
+    padding-left: 20px;    
+    text-align: unset; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(4, 4, 102);
+}
+#one{
+    padding: 10px;
+}
+#one-head{
+    padding: 10px;
+    padding-left: 20px;    
+    text-align: unset; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#two{
+    padding: 10px;
+}
+#three{
+    padding: 10px;
+}
+#four{
+    padding: 10px;
+}
+#five{
+    padding: 10px;
+}
+#six{
+    padding: 10px;
+}
+#seven{
+    padding: 10px;
+}
+/* SIDE BAR ENDS HERE */
+
+   /* BODY MID PIC STARTS HERE  */
+
+.big-pic{
+    display: relative;
+    padding-left: 247px;
+    padding-bottr
+    
+}
+#blur{
+    filter: blur(8px);
+}
+.crime-text{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 2rem;
+    /* letter-spacing: 1; */
+    font-family:  Courier, monospace;
+    z-index: 1;
+    /* filter: blur(1rem); */
+}
+
+   /* BODY MID PIC ENDS HERE */
+
+      /* GRID HELP TEXT STARTS HERE */
+
+    .grid-help-text{
+        padding-left: 250px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+       
+        /* padding-top: 10px; */
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* background-color: darkblue; */
+    }
+    #grid-help-text-para{
+        padding-left: 220px;
+        /* color: aliceblue; */
+        color: navy;
+        font-weight: 700;
+    }
+   
+
+         /* GRID HELP TEXT ENDS HERE */
+
+   /* GRID STARTS HERE */
+    .grid-items{
+        padding-left: 250px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        /* color: navy; */
+    }
+    .grid-item-one{
+        display: relative;
+    } 
+    #g1{
+        padding: 30px;
+        /* padding-left: 60px; */
+
+    }
+    #g2{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g3{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g4{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g5{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g6{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g7{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g8{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g9{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g10{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g11{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+    #g12{
+        padding: 30px;
+        /* padding-left: 60px; */
+    }
+
+
+    button{
+        padding: 5px;
+        background-color: navy;
+        border-radius: 10px;
+        color: aliceblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #button1{
+        padding: 10px;
+    }
+    #button2{
+        padding: 10px;
+    }
+    #button3{
+        padding: 10px;
+    }
+    #button4{
+        padding: 10px;
+    }
+    #button5{
+        padding: 10px;
+    }
+    #button6{
+        padding: 10px;
+    }
+    #button7{
+        padding: 10px;
+    }
+    #button8{
+        padding: 10px;
+    }
+    #button9{
+        padding: 10px;
+    }
+    #button10{
+        padding: 10px;
+    }
+    #button11{
+        padding: 10px;
+    }
+    #button12{
+        padding: 10px;
+    }
+    #help-text-one{
+        padding-bottom: 10px;
+    }
+    #help-text-two{
+        padding-bottom: 10px;
+    }
+    #help-text-three{
+        padding-bottom: 10px;
+    }
+    #help-text-four{
+        padding-bottom: 10px;
+    }
+    #help-text-five{
+        padding-bottom: 10px;
+    }
+    #help-text-six{
+        padding-bottom: 10px;
+    }
+    #help-text-seven{
+        padding-bottom: 10px;
+    }
+    #help-text-eight{
+        padding-bottom: 10px;
+    }
+    #help-text-nine{
+        padding-bottom: 10px;
+    }
+    #help-text-ten{
+        padding-bottom: 10px;
+    }
+    #help-text-eleven{
+        padding-bottom: 10px;
+    }
+    #help-text-twelve{
+        padding-bottom: 10px;
+    }
+
+   /* GRID ENDS HERE */
+
+      /* FOOTER SECTION STARTS HERE */
+
+    .footer{
+        padding-left: 248px;
+    }
+    .foot-section{
+        padding: 10px;
+        background-color: rgb(202, 238, 247);
+        color: navy;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 11px;
+    }
+    .foot{
+        display: flex;
+        padding-left: 422px;
+        text-decoration: underline;
+        font-size: 12px;
+    }
+    .copy{
+        padding-bottom: 3px;
+    }
+    .vl{
+        border-left: 1px solid navy;
+    }
+    #foot1{
+        padding-right: 15px;
+    }
+    #foot2{
+        padding-left: 17px;
+        padding-right: 15px;
+    }
+    #foot3{
+        padding-left: 17px;
+    }
+
+        /* FOOTER SECTION ENDS HERE */
